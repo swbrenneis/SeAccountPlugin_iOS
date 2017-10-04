@@ -10,14 +10,19 @@
 		5586D0E81F7AEC50004F198F /* SeAccountPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5586D0DE1F7AEC50004F198F /* SeAccountPlugin.framework */; };
 		5586D0ED1F7AEC50004F198F /* SeAccountPluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586D0EC1F7AEC50004F198F /* SeAccountPluginTests.m */; };
 		5586D0EF1F7AEC50004F198F /* SeAccountPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D0E11F7AEC50004F198F /* SeAccountPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5586D0FB1F7AEF13004F198F /* AccountCreator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5586D0FA1F7AEF13004F198F /* AccountCreator.mm */; };
-		5586D1091F7B4013004F198F /* AccountCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D0FC1F7AEF40004F198F /* AccountCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5586D1121F7B4A45004F198F /* FunctionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D1101F7B4A45004F198F /* FunctionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5586D1131F7B4A45004F198F /* FunctionFactory.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5586D1111F7B4A45004F198F /* FunctionFactory.mm */; };
-		5586D1151F7B4BDE004F198F /* PluginFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D1141F7B4BDE004F198F /* PluginFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5586D1181F7B548B004F198F /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5586D1161F7B524C004F198F /* Cordova.framework */; };
-		5586D11B1F7B5F5A004F198F /* NewAccountFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D1191F7B5F5A004F198F /* NewAccountFunction.h */; };
-		5586D11C1F7B5F5A004F198F /* NewAccountFunction.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5586D11A1F7B5F5A004F198F /* NewAccountFunction.mm */; };
+		5586D1121F7B4A45004F198F /* SEFunctionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D1101F7B4A45004F198F /* SEFunctionFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5586D1131F7B4A45004F198F /* SEFunctionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586D1111F7B4A45004F198F /* SEFunctionFactory.m */; };
+		5586D1151F7B4BDE004F198F /* SEPluginFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D1141F7B4BDE004F198F /* SEPluginFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5586D1251F7DEF02004F198F /* SessionState.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D1231F7DEF02004F198F /* SessionState.h */; };
+		5586D1261F7DEF02004F198F /* SessionState.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5586D1241F7DEF02004F198F /* SessionState.mm */; };
+		5586D1291F7DEF7D004F198F /* ParameterGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D1271F7DEF7D004F198F /* ParameterGenerator.h */; };
+		5586D12A1F7DEF7D004F198F /* ParameterGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586D1281F7DEF7D004F198F /* ParameterGenerator.m */; };
+		5586D14D1F81EEE9004F198F /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5586D14C1F81EEE9004F198F /* Cordova.framework */; };
+		5586D1531F8429E4004F198F /* GenParamsFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586D1511F8429E4004F198F /* GenParamsFunction.h */; };
+		5586D1541F8429E4004F198F /* GenParamsFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586D1521F8429E4004F198F /* GenParamsFunction.m */; };
+		5586D16B1F847DBC004F198F /* CryptoKitty_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5586D16A1F847DBC004F198F /* CryptoKitty_iOS.framework */; };
+		5586D16D1F84854F004F198F /* coder_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5586D16C1F84854F004F198F /* coder_iOS.framework */; };
+		5586D1711F8487F9004F198F /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5586D1701F8487F9004F198F /* libgmp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +42,21 @@
 		5586D0E71F7AEC50004F198F /* SeAccountPluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeAccountPluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5586D0EC1F7AEC50004F198F /* SeAccountPluginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeAccountPluginTests.m; sourceTree = "<group>"; };
 		5586D0EE1F7AEC50004F198F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5586D0FA1F7AEF13004F198F /* AccountCreator.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AccountCreator.mm; sourceTree = "<group>"; };
-		5586D0FC1F7AEF40004F198F /* AccountCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountCreator.h; sourceTree = "<group>"; };
-		5586D10D1F7B48A4004F198F /* PluginFunctionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginFunctionFactory.h; sourceTree = "<group>"; };
-		5586D1101F7B4A45004F198F /* FunctionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionFactory.h; sourceTree = "<group>"; };
-		5586D1111F7B4A45004F198F /* FunctionFactory.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FunctionFactory.mm; sourceTree = "<group>"; };
-		5586D1141F7B4BDE004F198F /* PluginFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginFunction.h; sourceTree = "<group>"; };
-		5586D1161F7B524C004F198F /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cordova.framework; sourceTree = "<group>"; };
-		5586D1191F7B5F5A004F198F /* NewAccountFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewAccountFunction.h; sourceTree = "<group>"; };
-		5586D11A1F7B5F5A004F198F /* NewAccountFunction.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NewAccountFunction.mm; sourceTree = "<group>"; };
+		5586D10D1F7B48A4004F198F /* SEPluginFunctionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEPluginFunctionFactory.h; sourceTree = "<group>"; };
+		5586D1101F7B4A45004F198F /* SEFunctionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEFunctionFactory.h; sourceTree = "<group>"; };
+		5586D1111F7B4A45004F198F /* SEFunctionFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEFunctionFactory.m; sourceTree = "<group>"; };
+		5586D1141F7B4BDE004F198F /* SEPluginFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEPluginFunction.h; sourceTree = "<group>"; };
+		5586D1231F7DEF02004F198F /* SessionState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionState.h; sourceTree = "<group>"; };
+		5586D1241F7DEF02004F198F /* SessionState.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SessionState.mm; sourceTree = "<group>"; };
+		5586D1271F7DEF7D004F198F /* ParameterGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterGenerator.h; sourceTree = "<group>"; };
+		5586D1281F7DEF7D004F198F /* ParameterGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterGenerator.m; sourceTree = "<group>"; };
+		5586D1431F81E9EA004F198F /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = "../../../Library/Developer/Xcode/DerivedData/CordovaLib-hbjjztaukiyblmewtkgabhnwbrfs/Build/Products/Debug-iphonesimulator/Cordova.framework"; sourceTree = "<group>"; };
+		5586D14C1F81EEE9004F198F /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Cordova.framework; sourceTree = "<group>"; };
+		5586D1511F8429E4004F198F /* GenParamsFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenParamsFunction.h; sourceTree = "<group>"; };
+		5586D1521F8429E4004F198F /* GenParamsFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenParamsFunction.m; sourceTree = "<group>"; };
+		5586D16A1F847DBC004F198F /* CryptoKitty_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CryptoKitty_iOS.framework; sourceTree = "<group>"; };
+		5586D16C1F84854F004F198F /* coder_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = coder_iOS.framework; sourceTree = "<group>"; };
+		5586D1701F8487F9004F198F /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgmp.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5586D1181F7B548B004F198F /* Cordova.framework in Frameworks */,
+				5586D14D1F81EEE9004F198F /* Cordova.framework in Frameworks */,
+				5586D16D1F84854F004F198F /* coder_iOS.framework in Frameworks */,
+				5586D1711F8487F9004F198F /* libgmp.a in Frameworks */,
+				5586D16B1F847DBC004F198F /* CryptoKitty_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,17 +104,22 @@
 		5586D0E01F7AEC50004F198F /* SeAccountPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				5586D1701F8487F9004F198F /* libgmp.a */,
+				5586D16C1F84854F004F198F /* coder_iOS.framework */,
+				5586D16A1F847DBC004F198F /* CryptoKitty_iOS.framework */,
+				5586D14C1F81EEE9004F198F /* Cordova.framework */,
 				5586D0E11F7AEC50004F198F /* SeAccountPlugin.h */,
 				5586D0E21F7AEC50004F198F /* Info.plist */,
-				5586D0FA1F7AEF13004F198F /* AccountCreator.mm */,
-				5586D0FC1F7AEF40004F198F /* AccountCreator.h */,
-				5586D10D1F7B48A4004F198F /* PluginFunctionFactory.h */,
-				5586D1101F7B4A45004F198F /* FunctionFactory.h */,
-				5586D1111F7B4A45004F198F /* FunctionFactory.mm */,
-				5586D1141F7B4BDE004F198F /* PluginFunction.h */,
-				5586D1161F7B524C004F198F /* Cordova.framework */,
-				5586D1191F7B5F5A004F198F /* NewAccountFunction.h */,
-				5586D11A1F7B5F5A004F198F /* NewAccountFunction.mm */,
+				5586D10D1F7B48A4004F198F /* SEPluginFunctionFactory.h */,
+				5586D1101F7B4A45004F198F /* SEFunctionFactory.h */,
+				5586D1111F7B4A45004F198F /* SEFunctionFactory.m */,
+				5586D1141F7B4BDE004F198F /* SEPluginFunction.h */,
+				5586D1231F7DEF02004F198F /* SessionState.h */,
+				5586D1241F7DEF02004F198F /* SessionState.mm */,
+				5586D1271F7DEF7D004F198F /* ParameterGenerator.h */,
+				5586D1281F7DEF7D004F198F /* ParameterGenerator.m */,
+				5586D1511F8429E4004F198F /* GenParamsFunction.h */,
+				5586D1521F8429E4004F198F /* GenParamsFunction.m */,
 			);
 			path = SeAccountPlugin;
 			sourceTree = "<group>";
@@ -117,6 +136,7 @@
 		5586D1171F7B548B004F198F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5586D1431F81E9EA004F198F /* Cordova.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,11 +148,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5586D11B1F7B5F5A004F198F /* NewAccountFunction.h in Headers */,
+				5586D1291F7DEF7D004F198F /* ParameterGenerator.h in Headers */,
 				5586D0EF1F7AEC50004F198F /* SeAccountPlugin.h in Headers */,
-				5586D1121F7B4A45004F198F /* FunctionFactory.h in Headers */,
-				5586D1151F7B4BDE004F198F /* PluginFunction.h in Headers */,
-				5586D1091F7B4013004F198F /* AccountCreator.h in Headers */,
+				5586D1121F7B4A45004F198F /* SEFunctionFactory.h in Headers */,
+				5586D1151F7B4BDE004F198F /* SEPluginFunction.h in Headers */,
+				5586D1531F8429E4004F198F /* GenParamsFunction.h in Headers */,
+				5586D1251F7DEF02004F198F /* SessionState.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5586D1131F7B4A45004F198F /* FunctionFactory.mm in Sources */,
-				5586D0FB1F7AEF13004F198F /* AccountCreator.mm in Sources */,
-				5586D11C1F7B5F5A004F198F /* NewAccountFunction.mm in Sources */,
+				5586D1541F8429E4004F198F /* GenParamsFunction.m in Sources */,
+				5586D1131F7B4A45004F198F /* SEFunctionFactory.m in Sources */,
+				5586D1261F7DEF02004F198F /* SessionState.mm in Sources */,
+				5586D12A1F7DEF7D004F198F /* ParameterGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +332,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -364,6 +387,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -386,6 +410,10 @@
 				INFOPLIST_FILE = SeAccountPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SeAccountPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.secomm.SeAccountPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -410,6 +438,10 @@
 				INFOPLIST_FILE = SeAccountPlugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SeAccountPlugin",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.secomm.SeAccountPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
